@@ -289,7 +289,7 @@ header {
 }
 
 label {
-	font-size: 2Opx;
+	font-size: 20px;
 	color: #f4f7f6;
 }
 
@@ -435,7 +435,7 @@ button:hover {
 
 .icon2 p {
 	text-align: center;
-	font-size: 2Opx;
+	font-size: 20px;
 	color: #1C2126;
 
 
@@ -476,14 +476,14 @@ body {
 }
 
 
-.gallery {
+#gallery {
 
 	padding: 7%;
 	margin-bottom: 10%;
 
 }
 
-.gallery p {
+#gallery p {
 	color: #1C2126;
 	margin-bottom: 5vw;
 	font-size: 20px;
@@ -550,7 +550,7 @@ p {
 }
 
 
-.carousel button {
+.carousel button{
 
 	position: absolute;
 	cursor: pointer;
@@ -770,6 +770,12 @@ i {
 	#contact h2 {
 		font-size: 1.125rem;
 	}
+	#services h2{
+		font-size: 1.25rem;
+	}
+	#gallery h2 {
+		font-size: 1.25rem;
+	}
 
 	.nous-container h2 {
 		font-size: 1rem;
@@ -786,7 +792,7 @@ i {
 	button,
 	label,
 	.équipe p,
-	.gallery p,
+	#gallery p,
 	#contact p,
 	.services p,
 	.team-member p,
@@ -839,7 +845,7 @@ i {
 	button,
 	label,
 	.équipe p,
-	.gallery p,
+	#gallery p,
 	#contact p,
 	.services p,
 	.team-member p,
